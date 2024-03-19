@@ -14,9 +14,6 @@ function ejercicio1(){
     }else{
         alert("el numero ingresado no es correcto\n Recuerda que lo maximo a ingresar son '56 Horas'")
     }
-        
-    const precioCalculo = document.getElementById("precioCalculo")
-    precioCalculo.textContent = precioTotal + ' euros al mes'
 
     const nuevo = document.getElementById("nuevo")
     const antiguo = document.getElementById("antiguo")
@@ -24,10 +21,11 @@ function ejercicio1(){
     var alumnoNuevo = nuevo.value = true
     var alumnoAntiguo = antiguo.value = true
 
-    if(alumnoNuevo == true){
-        alert("siu")
-    }else if(alumnoAntiguo == false){
-        alert("oka")
+    if(alumnoAntiguo == false){
+        precioTotal -= 12
     }
+
+    const precioCalculo = document.getElementById("precioCalculo")
+    precioCalculo.textContent = precioTotal + ' euros al mes'
 
 }
