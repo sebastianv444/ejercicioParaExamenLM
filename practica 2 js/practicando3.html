@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo Impuestos</title>
+</head>
+<body>
+    <div id="impuestos">
+    <h1>Impuestos</h1>
+
+    <label for="salario">Ingrese la cantidad</label><br>
+    <input type="number" id="salario"><br><br>
+
+    <input type="radio" id="hijosSi" name="hijos">
+    <label for="hijosSi">Tengo Hijos</label><br>
+
+    <input type="radio" id="hijosNo" name="hijos">
+    <label for="hijosNo">No Tengo Hijos</label><br><br>
+
+    <input type="checkbox" id="bonus">
+    <label for="bonus">Bonus</label><br>
+    <input type="checkbox" id="extra">
+    <label for="extra">Extra</label>
+    </div>
+
+    <div id="resultado">
+        <h1>Resultado</h1>
+        <p>---</p>
+        <input type="button" onclick="ejercicio1()" value="Calcular">
+    </div>
+
+    <script src="practicando3.js" type="text/javascript"></script>
+</body>
+</html>
