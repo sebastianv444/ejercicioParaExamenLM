@@ -58,4 +58,10 @@ if(hijosSi == true && extra == true){
 
 document.getElementById("resultado").children[1].textContent = "el total de impuestos a pagar es de: "+ nuevoImpuesto
 
+if(nuevoImpuesto < 0){
+    document.getElementById("resultado").children[1].style.color = "#A82113"
+}else if(nuevoImpuesto > 0){
+    document.getElementById("resultado").children[1].style.color = "#A82113"
+}
+
 }
