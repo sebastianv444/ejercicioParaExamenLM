@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+}
+
+section{
+    width: 100%;
+}
+
+#General{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
+
+#Primero{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
+
+#Segundo{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
+
+#precio{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.centrado{
+    border: 2px solid black;
+    padding: 29px 55px;
+    text-align: center;
+    background-color: #DDDDDD;
+}
